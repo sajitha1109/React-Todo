@@ -68,7 +68,7 @@ const Todo = () => {
               <FontAwesomeIcon
                 icon={faTrash}
                 onClick={() => {
-                  if (editIndex !== index) handleDeleteTodo(index);}}
+                  if (editIndex !== index) handleDeleteTodo(index)}}
                 id="trash"
               />
             </div>
